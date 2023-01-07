@@ -16,7 +16,7 @@ import javax.annotation.PostConstruct;
 public class FootballApplication {
 
 	@Autowired
-	private UserRepository userRepository;
+	private UserRepository repo;
 
 	@Autowired
 	private PlayerRepository playerRepository;
