@@ -39,8 +39,8 @@ public class Player {
     private String personalAwards;
     @Column(name = "statistics")
     private String statistics;
-    @Column(name = "agent")
-    private String agent;
+    @Column(name = "agentId")
+    private Long agentId;
     @Column(name = "clubCareer")
     private String clubCareer;
 

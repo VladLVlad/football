@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:tc:mysql:8.0.23:///test?Tmysql&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+    username: root
+    password: test
+  freemarker:
+    expose-request-attributes: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
