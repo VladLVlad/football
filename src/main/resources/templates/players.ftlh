@@ -41,7 +41,6 @@
     Кубки: <input type="text" name="cups"/><br><br>
     Личные награды: <input type="text" name="personalAwards"/><br><br>
     Статистика: <input type="text" name="statistics"/><br><br>
-    Агент: <input type="text" name="agent"/><br><br>
     Клубная карьера: <input type="text" name="clubCareer"/><br><br>
     Первая фотография: <input type="file" name="file1"/><br><br>
     Вторая фотография: <input type="file" name="file2"/><br><br>
